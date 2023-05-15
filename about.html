@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>How to contact me and more-M.A.C</title>
@@ -16,9 +16,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #99daed;">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#" target="_blank" title="all-abo-me">M.A.C</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" target="_blank" title="all-abo-me">M.A.C</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,23 +26,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-primary" href="index.html" target="_blank"
+                        <a class="nav-link active" aria-current="page" href="index.html" target="_blank"
                             title="Marlene">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" aria-current="page" href="about.html" target="_blank"
-                            title="info-me">About Me</a>
+                        <a class="nav-link" href="about.html" target="_blank" title="info-me">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="about.html#contact" target="_blank"
-                            title="info-contact">Contact Me</a>
+                        <a class="nav-link" href="about.html#contact" target="_blank" title="info-contact">Contact
+                            me</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <h1 class="text-center mt-5">About me</h1>
-    <h3 class="text-center">Front-end developer from Denver, United States</h3>
+    <h1 class="text-center">About me and Contact Info</h1>
+    <h3 class="text-center">Front-end developer from Denver, Co</h3>
     <div class="about-paragraphs text-center">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
@@ -51,24 +50,21 @@
             blanditiis harum.
         </p>
     </div>
-    <br />
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <img src="images/yogurt.png" alt="yummy-yogurt" class="img-fluid rounded shadow-sm p-2 border" />
+                <img src="images/yoga.png" alt="yummy-yogurt" class="img-fluid p-2 shadow rounded" />
             </div>
             <div class="col-sm-4">
-                <img src="images/weather-app" alt="weather-app-example"
-                    class="img-fluid rounded shadow-sm p-2 border" />
+                <img src="images/weather-app.png" alt="weather-app-example" class="img-fluid p-2 shadow rounded" />
             </div>
             <div class="col-sm-4">
-                <img src="images/yoga.png" alt="yoga-example" class="img-fluid rounded shadow-sm p-2 border" />
+                <img src="images/yogurt.png" alt="yoga-example" class="img-fluid p-2 shadow rounded" />
             </div>
         </div>
     </div>
-    <br />
-    <div class="text-center" id="contact">
-        <h2>📮 Contact me</h2>
+    <div id="contact" class="mt-5">
+        <h2 class="text-center">📮 Contact me</h2>
         <a href="mailto:alex93chava@gmail.com" target="_blank" title="email"
             class="email-link">alex93chava@gmail.com</a>
     </div>

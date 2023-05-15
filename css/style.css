@@ -1,12 +1,11 @@
 :root {
-  --primary-color: #9bb27e;
-  --secondary-color: #faff5c;
+  --primary-color: #63a4ff;
+  --secondary-color: #eef0df;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
-  color: rgb(48, 115, 249);
 }
 
 h1,
@@ -44,22 +43,22 @@ p {
 }
 
 .primary-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
   border-radius: 4px;
-  color: white;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
 .secondary-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .homepage-link {
@@ -69,7 +68,6 @@ p {
 }
 
 .about-paragraphs {
-  display: flex;
   margin: 30px 0;
 }
 
